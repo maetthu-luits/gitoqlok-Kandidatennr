@@ -52,5 +52,5 @@ set vC_Luits_Int = 'RGB(222,166,94)'; /*Hex:dea65e*/
 set vC_Luits_Pos = 'RGB(106,177,103)'; /*Hex:6ab167*/
 ///$tab _gitoqlok
 /**
-** Last Updated at 3.10.2023, 14:58:37: Objects deleted: sheet "Muster", sheet "Muster", sheet "Muster", sheet "Muster", sheet "Muster" [%_OBJECTS_%%_SCRIPT_%] (maetthu-luits at 3.10.2023, 14:56:00)
+** Last Updated at 3.10.2023, 15:06:20: Delete objects/sheets directory (GitHub at 3.10.2023, 15:05:06)
 */
