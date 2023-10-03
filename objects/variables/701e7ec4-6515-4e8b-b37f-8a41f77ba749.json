@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "701e7ec4-6515-4e8b-b37f-8a41f77ba749",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vC_Luits_TG",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "RGB(102,204,237)",
+  "qIsScriptCreated": true
+}

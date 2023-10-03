@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "5f531d58-2ee2-4960-bb25-2aa631717de1",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vC_Luits_Deep_Purple",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "RGB(110,30,130)",
+  "qIsScriptCreated": true
+}

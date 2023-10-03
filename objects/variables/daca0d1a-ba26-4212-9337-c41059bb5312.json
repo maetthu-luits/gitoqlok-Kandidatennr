@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "daca0d1a-ba26-4212-9337-c41059bb5312",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vC_Luits_Black",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "RGB(0,0,0)",
+  "qIsScriptCreated": true
+}

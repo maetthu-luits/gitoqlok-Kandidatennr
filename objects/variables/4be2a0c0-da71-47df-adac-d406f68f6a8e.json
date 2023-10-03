@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "4be2a0c0-da71-47df-adac-d406f68f6a8e",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vC_Luits_Cat1",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "RGB(111,43,113)",
+  "qIsScriptCreated": true
+}

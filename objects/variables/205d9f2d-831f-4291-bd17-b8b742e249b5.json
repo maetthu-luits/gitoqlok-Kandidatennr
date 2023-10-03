@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "205d9f2d-831f-4291-bd17-b8b742e249b5",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vC_Luits_Sky_Blue",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "RGB(0,170,225)",
+  "qIsScriptCreated": true
+}

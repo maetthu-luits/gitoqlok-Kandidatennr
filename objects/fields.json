@@ -1,0 +1,765 @@
+[
+  {
+    "qName": "%BestZeileSchlüssel",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Bestellungen",
+      "Lieferungen"
+    ]
+  },
+  {
+    "qName": "%BestellungNr",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Bestellungen"
+    ]
+  },
+  {
+    "qName": "%Datum",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Bestellungen",
+      "Kalender"
+    ]
+  },
+  {
+    "qName": "%KategorieNr",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Produkte"
+    ]
+  },
+  {
+    "qName": "%KundenNr",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Kunden",
+      "Bestellungen"
+    ]
+  },
+  {
+    "qName": "%LieferantNr",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Produkte",
+      "Lieferanten"
+    ]
+  },
+  {
+    "qName": "%Niederlassung",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Mitarbeiter"
+    ]
+  },
+  {
+    "qName": "%PersonalNr",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Mitarbeiter",
+      "Verkäufer",
+      "Bestellungen"
+    ]
+  },
+  {
+    "qName": "%ProduktNr",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Bestellungen",
+      "Produkte"
+    ]
+  },
+  {
+    "qName": "%RegionNr",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Kunden"
+    ]
+  },
+  {
+    "qName": "%SpediteurNr",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Spediteure",
+      "Bestellungen"
+    ]
+  },
+  {
+    "qName": "Bestellungen.BestZeileNr",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Bestellungen"
+    ]
+  },
+  {
+    "qName": "Bestellungen.BestellungNrCount",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Bestellungen"
+    ]
+  },
+  {
+    "qName": "Bestellungen.Fracht",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Bestellungen"
+    ]
+  },
+  {
+    "qName": "Bestellungen.Menge",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Bestellungen"
+    ]
+  },
+  {
+    "qName": "Bestellungen.PersonalNrBestell",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Bestellungen"
+    ]
+  },
+  {
+    "qName": "Bestellungen.ProduktNrDatensatzzähler",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Bestellungen"
+    ]
+  },
+  {
+    "qName": "Bestellungen.Rabatt",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Bestellungen"
+    ]
+  },
+  {
+    "qName": "Bestellungen.UmsatzBestZeile",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Bestellungen"
+    ]
+  },
+  {
+    "qName": "Bestellungen.Verkaufspreis",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Bestellungen"
+    ]
+  },
+  {
+    "qName": "Kalender.Datum",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Kalender"
+    ]
+  },
+  {
+    "qName": "Kalender.Jahr",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Kalender"
+    ]
+  },
+  {
+    "qName": "Kalender.JahrMonat",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Kalender"
+    ]
+  },
+  {
+    "qName": "Kalender.Monat",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Kalender"
+    ]
+  },
+  {
+    "qName": "Kalender.MonatNum",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Kalender"
+    ]
+  },
+  {
+    "qName": "Kalender.Quartal",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Kalender"
+    ]
+  },
+  {
+    "qName": "Kalender.Tag",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Kalender"
+    ]
+  },
+  {
+    "qName": "Kalender.Woche",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Kalender"
+    ]
+  },
+  {
+    "qName": "Kalender.Wochentag",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Kalender"
+    ]
+  },
+  {
+    "qName": "Kunden.Bundesstaat",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Kunden"
+    ]
+  },
+  {
+    "qName": "Kunden.Fax",
+    "qTags": [],
+    "qSrcTables": [
+      "Kunden"
+    ]
+  },
+  {
+    "qName": "Kunden.Firma",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Kunden"
+    ]
+  },
+  {
+    "qName": "Kunden.KontaktName",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Kunden"
+    ]
+  },
+  {
+    "qName": "Kunden.Land",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Kunden"
+    ]
+  },
+  {
+    "qName": "Kunden.Länderkennz",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Kunden"
+    ]
+  },
+  {
+    "qName": "Kunden.Ort",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Kunden"
+    ]
+  },
+  {
+    "qName": "Kunden.PLZ",
+    "qTags": [],
+    "qSrcTables": [
+      "Kunden"
+    ]
+  },
+  {
+    "qName": "Kunden.RegionNr",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Kunden"
+    ]
+  },
+  {
+    "qName": "Kunden.Straße",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Kunden"
+    ]
+  },
+  {
+    "qName": "Kunden.Telefon",
+    "qTags": [],
+    "qSrcTables": [
+      "Kunden"
+    ]
+  },
+  {
+    "qName": "Lieferanten.Fax",
+    "qTags": [],
+    "qSrcTables": [
+      "Lieferanten"
+    ]
+  },
+  {
+    "qName": "Lieferanten.Firma",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Lieferanten"
+    ]
+  },
+  {
+    "qName": "Lieferanten.KontaktName",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Lieferanten"
+    ]
+  },
+  {
+    "qName": "Lieferanten.Land",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Lieferanten"
+    ]
+  },
+  {
+    "qName": "Lieferanten.Ort",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Lieferanten"
+    ]
+  },
+  {
+    "qName": "Lieferanten.PLZ",
+    "qTags": [],
+    "qSrcTables": [
+      "Lieferanten"
+    ]
+  },
+  {
+    "qName": "Lieferanten.Straße",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Lieferanten"
+    ]
+  },
+  {
+    "qName": "Lieferanten.Telefon",
+    "qTags": [],
+    "qSrcTables": [
+      "Lieferanten"
+    ]
+  },
+  {
+    "qName": "Lieferungen.Lieferdatum",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Lieferungen"
+    ]
+  },
+  {
+    "qName": "Lieferungen.PersonalNr",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Lieferungen"
+    ]
+  },
+  {
+    "qName": "Lieferungen.ProduktNr",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Lieferungen"
+    ]
+  },
+  {
+    "qName": "Lieferungen.SpediteurNr",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Lieferungen"
+    ]
+  },
+  {
+    "qName": "Mitarbeiter.Bundesstaat",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Mitarbeiter"
+    ]
+  },
+  {
+    "qName": "Mitarbeiter.Durchwahl",
+    "qTags": [],
+    "qSrcTables": [
+      "Mitarbeiter"
+    ]
+  },
+  {
+    "qName": "Mitarbeiter.E-Mail",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Mitarbeiter"
+    ]
+  },
+  {
+    "qName": "Mitarbeiter.Einstellungsdatum",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Mitarbeiter"
+    ]
+  },
+  {
+    "qName": "Mitarbeiter.Einstellungsjahr",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Mitarbeiter"
+    ]
+  },
+  {
+    "qName": "Mitarbeiter.Fax",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Mitarbeiter"
+    ]
+  },
+  {
+    "qName": "Mitarbeiter.Jahresgehalt",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Mitarbeiter"
+    ]
+  },
+  {
+    "qName": "Mitarbeiter.Land",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Mitarbeiter"
+    ]
+  },
+  {
+    "qName": "Mitarbeiter.Name",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Mitarbeiter"
+    ]
+  },
+  {
+    "qName": "Mitarbeiter.Ort",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Mitarbeiter"
+    ]
+  },
+  {
+    "qName": "Mitarbeiter.PLZ",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Mitarbeiter"
+    ]
+  },
+  {
+    "qName": "Mitarbeiter.Position",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Mitarbeiter"
+    ]
+  },
+  {
+    "qName": "Mitarbeiter.Strasse",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Mitarbeiter"
+    ]
+  },
+  {
+    "qName": "Mitarbeiter.Telefon",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Mitarbeiter"
+    ]
+  },
+  {
+    "qName": "Mitarbeiter.Vorgesetzter",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Mitarbeiter"
+    ]
+  },
+  {
+    "qName": "Produkte-1.Region",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Kunden"
+    ]
+  },
+  {
+    "qName": "Produkte.Beschreibung",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Produkte"
+    ]
+  },
+  {
+    "qName": "Produkte.Einkaufspreis",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Produkte"
+    ]
+  },
+  {
+    "qName": "Produkte.KategorieName",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Produkte"
+    ]
+  },
+  {
+    "qName": "Produkte.MengeAufLager",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Produkte"
+    ]
+  },
+  {
+    "qName": "Produkte.MengeBestellt",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Produkte"
+    ]
+  },
+  {
+    "qName": "Produkte.ProduktName",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Produkte"
+    ]
+  },
+  {
+    "qName": "Produkte.StückProEinheit",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Produkte"
+    ]
+  },
+  {
+    "qName": "Spediteure.Spediteur",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Spediteure"
+    ]
+  },
+  {
+    "qName": "Verkäufer.Verkäufer",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Verkäufer"
+    ]
+  },
+  {
+    "qName": "Verkäufer.VerkäuferPosition",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Verkäufer"
+    ]
+  }
+]

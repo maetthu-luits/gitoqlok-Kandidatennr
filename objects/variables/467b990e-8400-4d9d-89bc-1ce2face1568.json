@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "467b990e-8400-4d9d-89bc-1ce2face1568",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vC_Luits_Pos",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "RGB(106,177,103)",
+  "qIsScriptCreated": true
+}

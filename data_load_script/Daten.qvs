@@ -1,0 +1,32 @@
+///$tab Daten
+/* Datenload */
+Kunden: Load * from [lib://Mätthu's Space:DataFiles/Kunden.qvd] (qvd);
+Mitarbeiter: Load * from [lib://Mätthu's Space:DataFiles/Mitarbeiter.qvd] (qvd);
+Verkäufer: Load * from [lib://Mätthu's Space:DataFiles/Verkäufer.qvd] (qvd);
+Spediteure: Load * from [lib://Mätthu's Space:DataFiles/Spediteure.qvd] (qvd);
+Bestellungen: Load * from [lib://Mätthu's Space:DataFiles/Bestellungen.qvd] (qvd);
+Kalender: Load * from [lib://Mätthu's Space:DataFiles/Kalender.qvd] (qvd);
+Produkte: Load * from [lib://Mätthu's Space:DataFiles/Produkte.qvd] (qvd);
+Lieferanten: Load * from [lib://Mätthu's Space:DataFiles/Lieferanten.qvd] (qvd);
+Lieferungen: Load * from [lib://Mätthu's Space:DataFiles/Lieferungen.qvd] (qvd);
+// Farbvariablen Luits
+set vC_Luits_Deep_Purple = 'RGB(110,30,130)'; /*Hex:6e1e82*/
+set vC_Luits_Sky_Blue = 'RGB(0,170,225)'; /*Hex:00aae1*/
+set vC_Luits_Black = 'RGB(0,0,0)'; /*Hex:000000*/
+set vC_Luits_Cat1 = 'RGB(111,43,113)'; /*Hex:6f2b71*/
+set vC_Luits_Cat2 = 'RGB(166,166,166)'; /*Hex:a6a6a6*/
+set vC_Luits_Cat3 = 'RGB(24,116,151)'; /*Hex:187497*/
+set vC_Luits_Cat4 = 'RGB(211,141,229)'; /*Hex:d38de5*/
+set vC_Luits_Cat5 = 'RGB(102,204,237)'; /*Hex:66cced*/
+set vC_Luits_Cat6 = 'RGB(102,102,102)'; /*Hex:666666*/
+set vC_Luits_PY = 'RGB(255,255,255)'; /*Hex:ffffff*/
+set vC_Luits_BU = 'RGB(153,153,153)'; /*Hex:999999*/
+set vC_Luits_AC = 'RGB(0,170,225)'; /*Hex:00aae1*/
+set vC_Luits_FC = 'RGB(153,221,243)'; /*Hex:99ddf3*/
+set vC_Luits_P1P2 = 'RGB(204,204,204)'; /*Hex:cccccc*/
+set vC_Luits_AL = 'RGB(102,102,102)'; /*Hex:666666*/
+set vC_Luits_TG = 'RGB(102,204,237)'; /*Hex:66cced*/
+set vC_Luits_RR = 'RGB(204,238,249)'; /*Hex:cceef9*/
+set vC_Luits_Neg = 'RGB(189,78,80)'; /*Hex:bd4e50*/
+set vC_Luits_Int = 'RGB(222,166,94)'; /*Hex:dea65e*/
+set vC_Luits_Pos = 'RGB(106,177,103)'; /*Hex:6ab167*/

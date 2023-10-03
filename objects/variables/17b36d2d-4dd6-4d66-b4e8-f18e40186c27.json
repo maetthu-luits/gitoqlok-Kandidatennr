@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "17b36d2d-4dd6-4d66-b4e8-f18e40186c27",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vC_Luits_PY",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "RGB(255,255,255)",
+  "qIsScriptCreated": true
+}

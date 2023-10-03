@@ -1,0 +1,32 @@
+[
+  {
+    "qProperty": {
+      "qInfo": {
+        "qId": "9efca4a1-96cb-4818-b7d4-e087732ec3fe",
+        "qType": "appprops"
+      },
+      "qMetaDef": {},
+      "sheetTitleBgColor": {
+        "color": "#4477aa",
+        "index": 6
+      },
+      "sheetTitleGradientColor": {
+        "color": "#4477aa",
+        "index": 6
+      },
+      "sheetTitleColor": "",
+      "sheetLogoThumbnail": {
+        "qStaticContentUrlDef": {
+          "qUrl": "/api/v1/apps/20fc43e7-eaaa-4129-8504-2c683852f575/media/files/Qlik_default_feathers.png"
+        }
+      },
+      "sheetLogoPosition": "",
+      "rtl": false,
+      "theme": "sense",
+      "disableCellNavMenu": false,
+      "chartAnimations": true,
+      "defaultBookmarkId": "c77983f6-ac95-4206-b59d-1f9b61e28128"
+    },
+    "qChildren": []
+  }
+]

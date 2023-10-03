@@ -1,0 +1,47 @@
+{
+  "qInfo": {
+    "qId": "c49f37cc-1db2-46da-97bb-adf9e8e1fd9a",
+    "qType": "bookmark"
+  },
+  "qMetaDef": {
+    "title": "Jahr 2019",
+    "description": ""
+  },
+  "sheetId": "9ca9b8fb-cd72-4893-a140-584d9249dc26",
+  "selectionFields": "",
+  "qBookMark": {
+    "qStateData": [
+      {
+        "qStateName": "$",
+        "qFieldItems": [
+          {
+            "qDef": {
+              "qName": "Kalender.Jahr",
+              "qType": "PRESENT"
+            },
+            "qSelectInfo": {
+              "qRangeLo": "NaN",
+              "qRangeHi": "NaN",
+              "qNumberFormat": {
+                "qType": "U",
+                "qnDec": 10,
+                "qUseThou": 0
+              },
+              "qRangeInfo": [],
+              "qContinuousRangeInfo": []
+            },
+            "qValues": [
+              {
+                "qIsNumeric": true,
+                "qNumber": 2019
+              }
+            ],
+            "qExcludedValues": []
+          }
+        ]
+      }
+    ],
+    "qVariableItems": [],
+    "qPatches": []
+  }
+}
