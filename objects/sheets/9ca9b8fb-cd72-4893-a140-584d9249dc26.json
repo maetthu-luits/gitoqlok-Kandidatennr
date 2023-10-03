@@ -689,7 +689,7 @@
         "qHyperCubeDef": {
           "qDimensions": [
             {
-              "qLibraryId": "kVjRPP",
+              "qLibraryId": "74d84834-127f-4756-9d54-79637c53d20b",
               "qDef": {
                 "qGrouping": "N",
                 "qFieldDefs": [],
@@ -705,7 +705,7 @@
                 "qNumberPresentations": [],
                 "qActiveField": 0,
                 "autoSort": true,
-                "cId": "mPM",
+                "cId": "myqwg",
                 "othersLabel": "Sonstige"
               },
               "qOtherTotalSpec": {
