@@ -1,0 +1,26 @@
+{
+  "qInfo": {
+    "qId": "7d503e20-8fa1-4a8d-802a-810bc93406ff",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "Kalender.Tag"
+    ],
+    "qFieldLabels": [
+      "Tag"
+    ],
+    "title": "Tag",
+    "coloring": {
+      "colorMapRef": "vfAHjk",
+      "changeHash": "0.38619076234566374",
+      "hasValueColors": false
+    }
+  },
+  "qMetaDef": {
+    "title": "Tag",
+    "description": "",
+    "tags": []
+  }
+}

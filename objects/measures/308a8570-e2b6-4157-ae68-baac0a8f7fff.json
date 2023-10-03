@@ -1,0 +1,29 @@
+{
+  "qInfo": {
+    "qId": "308a8570-e2b6-4157-ae68-baac0a8f7fff",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Anzahl",
+    "qDef": "Count(Distinct %BestellungNr)",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "coloring": {
+      "baseColor": {
+        "color": "#ffcf02",
+        "index": 8
+      }
+    }
+  },
+  "qMetaDef": {
+    "title": "Anzahl",
+    "description": "",
+    "tags": []
+  }
+}

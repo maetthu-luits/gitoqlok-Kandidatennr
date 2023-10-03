@@ -1,0 +1,25 @@
+{
+  "qInfo": {
+    "qId": "23ebae9c-1a7f-456c-bb0a-92a0b01adfcc",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "Kunden.Land"
+    ],
+    "qFieldLabels": [
+      "Land (Kunde)"
+    ],
+    "title": "Land (Kunde)",
+    "coloring": {
+      "changeHash": "0.49572029661625894",
+      "hasValueColors": false
+    }
+  },
+  "qMetaDef": {
+    "title": "Land (Kunde)",
+    "description": "",
+    "tags": []
+  }
+}

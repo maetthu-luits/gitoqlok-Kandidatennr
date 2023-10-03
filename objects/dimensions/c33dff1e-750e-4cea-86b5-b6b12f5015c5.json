@@ -1,0 +1,25 @@
+{
+  "qInfo": {
+    "qId": "c33dff1e-750e-4cea-86b5-b6b12f5015c5",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "Kalender.Jahr"
+    ],
+    "qFieldLabels": [
+      "Jahr"
+    ],
+    "title": "Jahr",
+    "coloring": {
+      "changeHash": "0.11305552800387009",
+      "hasValueColors": false
+    }
+  },
+  "qMetaDef": {
+    "title": "Jahr",
+    "description": "",
+    "tags": []
+  }
+}

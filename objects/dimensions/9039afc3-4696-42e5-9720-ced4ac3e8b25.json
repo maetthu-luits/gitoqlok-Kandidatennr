@@ -1,0 +1,26 @@
+{
+  "qInfo": {
+    "qId": "9039afc3-4696-42e5-9720-ced4ac3e8b25",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "Verkäufer.Verkäufer"
+    ],
+    "qFieldLabels": [
+      "Verkäufer"
+    ],
+    "title": "Verkäufer",
+    "coloring": {
+      "colorMapRef": "kVjRPP",
+      "changeHash": "0.7967876551299413",
+      "hasValueColors": false
+    }
+  },
+  "qMetaDef": {
+    "title": "Verkäufer",
+    "description": "",
+    "tags": []
+  }
+}

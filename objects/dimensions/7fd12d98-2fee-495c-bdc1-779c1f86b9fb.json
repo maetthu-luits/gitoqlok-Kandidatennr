@@ -1,0 +1,26 @@
+{
+  "qInfo": {
+    "qId": "7fd12d98-2fee-495c-bdc1-779c1f86b9fb",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "Kalender.JahrMonat"
+    ],
+    "qFieldLabels": [
+      "Monat"
+    ],
+    "title": "Monat",
+    "coloring": {
+      "colorMapRef": "vfAHjk",
+      "changeHash": "0.0034995686421734895",
+      "hasValueColors": false
+    }
+  },
+  "qMetaDef": {
+    "title": "Monat",
+    "description": "",
+    "tags": []
+  }
+}

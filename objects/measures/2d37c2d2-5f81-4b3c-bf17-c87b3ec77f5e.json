@@ -1,0 +1,29 @@
+{
+  "qInfo": {
+    "qId": "2d37c2d2-5f81-4b3c-bf17-c87b3ec77f5e",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Umsatz",
+    "qDef": "Sum(Bestellungen.UmsatzBestZeile)",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "coloring": {
+      "baseColor": {
+        "color": "#00aae1",
+        "index": -1
+      }
+    }
+  },
+  "qMetaDef": {
+    "title": "Umsatz",
+    "description": "",
+    "tags": []
+  }
+}
