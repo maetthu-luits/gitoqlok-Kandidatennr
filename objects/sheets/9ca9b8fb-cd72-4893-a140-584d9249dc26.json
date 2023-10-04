@@ -133,20 +133,6 @@
           "width": 73.33333333333333,
           "height": 53.333333333333336
         }
-      },
-      {
-        "name": "MjAUfK",
-        "type": "filterpane",
-        "col": 8,
-        "row": 8,
-        "colspan": 7,
-        "rowspan": 7,
-        "bounds": {
-          "y": 53.333333333333336,
-          "x": 26.666666666666668,
-          "width": 23.333333333333332,
-          "height": 46.666666666666664
-        }
       }
     ],
     "qChildListDef": {
@@ -939,28 +925,6 @@
         "showMiniChartForContinuousAxis": true,
         "qLayoutExclude": {
           "quarantine": {}
-        }
-      },
-      "qChildren": []
-    },
-    {
-      "qProperty": {
-        "qInfo": {
-          "qId": "MjAUfK",
-          "qType": "filterpane"
-        },
-        "qMetaDef": {},
-        "showTitles": false,
-        "title": "",
-        "subtitle": "",
-        "footnote": "",
-        "disableNavMenu": false,
-        "showDetails": true,
-        "showDetailsExpression": false,
-        "visualization": "filterpane",
-        "version": "0.14.0",
-        "qChildListDef": {
-          "qData": {}
         }
       },
       "qChildren": []
