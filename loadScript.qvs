@@ -18,6 +18,7 @@ SET LongMonthNames='January;February;March;April;May;June;July;August;September;
 SET DayNames='Mon;Tue;Wed;Thu;Fri;Sat;Sun';
 SET LongDayNames='Monday;Tuesday;Wednesday;Thursday;Friday;Saturday;Sunday';
 SET NumericalAbbreviation='3:k;6:M;9:G;12:T;15:P;18:E;21:Z;24:Y;-3:m;-6:μ;-9:n;-12:p;-15:f;-18:a;-21:z;-24:y';
+
 ///$tab Daten
 /* Datenload */
 Kunden: Load * from [lib://Mätthu's Space:DataFiles/Kunden.qvd] (qvd);
@@ -50,7 +51,3 @@ set vC_Luits_RR = 'RGB(204,238,249)'; /*Hex:cceef9*/
 set vC_Luits_Neg = 'RGB(189,78,80)'; /*Hex:bd4e50*/
 set vC_Luits_Int = 'RGB(222,166,94)'; /*Hex:dea65e*/
 set vC_Luits_Pos = 'RGB(106,177,103)'; /*Hex:6ab167*/
-///$tab _gitoqlok
-/**
-** Last Updated at 3.10.2023, 15:06:20: Delete objects/sheets directory (GitHub at 3.10.2023, 15:05:06)
-*/
